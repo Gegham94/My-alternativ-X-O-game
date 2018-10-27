@@ -1,0 +1,58 @@
+body{
+    background-color: #d0e1e1;
+}
+.webkit{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+.background{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    background-color: #97CD77;
+    position: absolute;
+    width: 100%;
+    height: -1vw;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.user{
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+}
+.pc{
+    width: 150px;
+    height: 25px;
+    font-weight: bold;
+}
+.fon{
+    text-align: center;
+    position: absolute;
+    width: 1340px;
+    height: 2000px;
+    top: 150px;
+    margin-bottom: 30px;
+}
+.box{
+    background-color: #d0e1e1;
+    background-size: 100%;
+    cursor: pointer;
+    outline: 0;
+}
+.addKrestik{
+    background-image: url('./icons/krestik.png');
+    background-repeat: no-repeat;
+}
+.addNolik{
+    background-image: url('./icons/nolik.png');
+    background-repeat: no-repeat;
+}
